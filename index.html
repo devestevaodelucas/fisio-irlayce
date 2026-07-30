@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dra. Irlayce Ribeiro - Fisioterapeuta em Recife. Atendimento domiciliar nas áreas neurofuncional, gerontológica, traumato-ortopédica e pilates clínico." />
+  <title>Dra. Irlayce Ribeiro | Fisioterapeuta em Recife</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="#topo">
+      <img src="img/logo.png" alt="Logo Dra. Irlayce Ribeiro" class="nav-logo" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#diferenciais">Diferenciais</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="https://wa.me/5581985799648" target="_blank" class="btn-whatsapp-nav">Agendar consulta</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="topo">
+    <div class="hero-texto">
+      <p class="hero-subtitulo">Fisioterapia Domiciliar em Recife</p>
+      <h1>Cuidado profissional no conforto da sua casa</h1>
+      <p class="hero-desc">Atendimento personalizado, humanizado e focado na sua recuperação e qualidade de vida.</p>
+      <a href="https://wa.me/5581985799648" target="_blank" class="btn-principal">Agendar minha avaliação</a>
+    </div>
+    <div class="hero-imagem">
+      <img src="img/foto.jpg" alt="Dra. Irlayce Ribeiro - Fisioterapeuta" />
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <p class="secao-label">Sobre</p>
+      <h2>Quem é a Dra. Irlayce?</h2>
+      <p>Fisioterapeuta especializada em atendimento domiciliar, a Dra. Irlayce Ribeiro leva cuidado profissional até a sua casa, oferecendo tratamentos personalizados e humanizados. Com formação nas áreas neurofuncional, gerontológica e traumato-ortopédica, ela atua com foco total na recuperação e bem-estar de cada paciente, respeitando seu ritmo e suas necessidades.</p>
+      <p>Acredita que a fisioterapia vai além do tratamento — é sobre devolver movimento, autonomia e qualidade de vida.</p>
+      <p class="crefito">CREFITO: 383962-F</p>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <p class="secao-label">Serviços</p>
+      <h2>Áreas de atuação</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icone">🧠</div>
+          <h3>Neurofuncional</h3>
+          <p>Tratamento de disfunções neurológicas, auxiliando na reabilitação motora e funcional do paciente.</p>
+        </div>
+        <div class="card">
+          <div class="card-icone">🤝</div>
+          <h3>Gerontológica</h3>
+          <p>Cuidado especializado para idosos, promovendo mobilidade, equilíbrio e independência.</p>
+        </div>
+        <div class="card">
+          <div class="card-icone">🦴</div>
+          <h3>Traumato-Ortopédica</h3>
+          <p>Reabilitação de lesões musculares, ósseas e articulares com tratamento focado na sua recuperação.</p>
+        </div>
+        <div class="card">
+          <div class="card-icone">🧘</div>
+          <h3>Pilates Clínico Domiciliar</h3>
+          <p>Sessões de pilates terapêutico realizadas no conforto da sua casa, com acompanhamento profissional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="diferenciais" id="diferenciais">
+    <div class="container">
+      <p class="secao-label">Por que escolher</p>
+      <h2>Diferenciais do atendimento</h2>
+      <div class="diferenciais-grid">
+        <div class="diferencial">
+          <span>🏠</span>
+          <h4>Atendimento Domiciliar</h4>
+          <p>Você recebe cuidado profissional sem sair de casa, com toda a comodidade e segurança.</p>
+        </div>
+        <div class="diferencial">
+          <span>🕐</span>
+          <h4>Horário Flexível</h4>
+          <p>Agendamento adaptado à sua rotina, sem complicações.</p>
+        </div>
+        <div class="diferencial">
+          <span>👤</span>
+          <h4>Atendimento Personalizado</h4>
+          <p>Cada paciente é único. O tratamento é planejado exclusivamente para você.</p>
+        </div>
+        <div class="diferencial">
+          <span>💚</span>
+          <h4>Cuidado Humanizado</h4>
+          <p>Mais do que tratar, a Dra. Irlayce se dedica a entender e acolher cada paciente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="container">
+      <p class="secao-label">Contato</p>
+      <h2>Agende sua avaliação</h2>
+      <p class="contato-desc">Entre em contato e dê o primeiro passo para a sua recuperação.</p>
+      <div class="contato-grid">
+        <div class="formulario">
+          <input type="text" id="nome" placeholder="Seu nome" />
+          <textarea id="mensagem" placeholder="Como posso te ajudar?"></textarea>
+          <button class="btn-principal" onclick="enviarWhatsApp()">Enviar pelo WhatsApp</button>
+        </div>
+        <div class="contato-info">
+          <p>📍 Recife - PE</p>
+          <p>🕐 Horário flexível</p>
+          <p>📱 <a href="https://wa.me/5581985799648" target="_blank">(81) 98579-9648</a></p>
+          <p>📸 <a href="https://instagram.com/fisio.irlayceribeiro" target="_blank">@fisio.irlayceribeiro</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="#topo">
+      <img src="img/logo.png" alt="Logo Dra. Irlayce Ribeiro" class="footer-logo" />
+    </a>
+    <p>Dra. Irlayce Ribeiro — Fisioterapeuta | CREFITO: 383962-F</p>
+    <p>© 2026 Todos os direitos reservados</p>
+  </footer>
+
+  <script>
+    // Volta ao topo ao recarregar a página
+    if (history.scrollRestoration) {
+      history.scrollRestoration = 'manual';
+    }
+
+    window.onload = function() {
+      window.scrollTo(0, 0);
+    };
+
+    // Envia mensagem pelo WhatsApp
+    function enviarWhatsApp() {
+      const nome = document.getElementById("nome").value.trim();
+      const mensagem = document.getElementById("mensagem").value.trim();
+
+      if (!nome) {
+        alert("Por favor, informe seu nome.");
+        return;
+      }
+
+      let texto = `Olá, Dra. Irlayce! Me chamo *${nome}*`;
+      if (mensagem) texto += `.\n\n${mensagem}`;
+      texto += `.\n\nGostaria de agendar uma avaliação!`;
+
+      const url = `https://wa.me/5581985799648?text=${encodeURIComponent(texto)}`;
+      window.open(url, "_blank");
+    }
+  </script>
+
+</body>
+</html>
