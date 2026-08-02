@@ -4,7 +4,7 @@ Landing page profissional desenvolvida para a fisioterapeuta Dra. Irlayce Ribeir
 
 ## 🌐 Acesse o site
 
-[clique aqui para acessar](#) ← vamos atualizar este link após o deploy
+[clique aqui para acessar](https://devestevaodelucas.github.io/fisio-irlayce)
 
 ## 🚀 Tecnologias utilizadas
 
